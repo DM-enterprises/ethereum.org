@@ -1,0 +1,42 @@
+            - name: Dependencies license compliance checker
+  # You may pin to the exact commit or the version.
+  # uses: pilosus/action-pip-license-checker@cc7a461bfa27b44ad187b8578c881ef5138c13fd
+  uses: pilosus/action-pip-license-checker@v2.0.0
+  with:
+    # Path to requirements file(s)
+    requirements: # optional
+    # Path to CSV file(s) in format: `package_name,license_name[,...]`
+    external: # optional
+    # External file format: csv, cocoapods, gradle
+    external-format: # optional
+    # String of options map in EDN format
+    external-options: # optional
+    # Return non-zero exit code if specified license type(s) found
+    fail: # optional
+    # Print only packages of license types specified with `fail` input.
+    fails-only: # optional
+    # PCRE to exclude matching packages
+    exclude: # optional
+    # PCRE to exclude packages with matching license names
+    exclude-license: # optional
+    # Include pre-release and development versions
+    pre: # optional
+    # Print totals for license types
+    totals: # optional
+    # Print totals for license types
+    with-totals: # optional
+    # Print only totals for license types
+    totals-only: # optional
+    # Print report headers
+    headers: # optional
+    # Print table headers
+    table-headers: # optional
+    # Report format: stdout, json, json-pretty, csv
+    report-format: # optional
+    # Printf-style formatter string for report formatting
+    formatter: # optional
+    # GitHub OAuth Token to increase rate-limits
+    github-token: # optional
+    # Make output verbose
+    verbose: # optional
+          
