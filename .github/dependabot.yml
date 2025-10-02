@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:dependabot.yml
+  - package-ecosystem: "npm" # EXAMPLE: Specify a package manager, like "npm", "pip", "docker", or "github-actions"
+    directory: "/" # Location of package manifests (e.g., package.json, requirements.txt)
+    schedule:
       interval: "weekly"
