@@ -311,7 +311,7 @@
     "browserify-reload": "^1.0.3",
     "browserify-zlib": "^0.2.0",
     "buffer": "^6.0.3",
-    "chai": "^4.3.7",
+    "chai": "^6.2.0",
     "child_process": "^1.0.2",
     "colors": "^1.4.0",
     "colors-browserify": "^0.1.1",
