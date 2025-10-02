@@ -4780,9 +4780,9 @@
   integrity sha512-r8/AdpiS0/WJCNR/t/gsgL+M8NMVj/ek7s60uz3LmpCaTF2mEVlZJlB01ZzalgYzRLXwSPC92o+pdzjM7PN/pA==
 
 "@isomorphic-git/lightning-fs@^4.4.1":
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/@isomorphic-git/lightning-fs/-/lightning-fs-4.4.1.tgz#0df8ab07e89ce06b5443eceba91834c3c68a2698"
-  integrity sha512-E9bYtiHF6pPh0N8Sx5Nvq0F1RL6Wdtq43PUmbAKAAYTi51F3MmMg9MkCOQT40Xc0TYhZcJMEP/wnH4mXaCxSsQ==
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/@isomorphic-git/lightning-fs/-/lightning-fs-4.6.2.tgz#3071b63ac564f65ef67726743567448c23a9a16e"
+  integrity sha512-RS/oa1UBnoUFe56bsjOEgoUUReYKQzYUlQnbERRRNv9s9KmjyWuuylPV+YgsWirR2oONKaipWYMebVQ8SAe55Q==
   dependencies:
     "@isomorphic-git/idb-keyval" "3.3.2"
     isomorphic-textencoder "1.0.1"
@@ -8785,11 +8785,9 @@
   integrity sha512-IwpIMieE55oGWiXkQPSBY1nw1nFs6bsKXTFskNY8sdS17K24vyEBRQZEwlRS7ZmXCWnJcQtbxWzly+cODWGs2A==
 
 "@types/isomorphic-git__lightning-fs@^4.4.2":
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/@types/isomorphic-git__lightning-fs/-/isomorphic-git__lightning-fs-4.4.2.tgz#aead17cb1ab1a965b69a5247a7d4087336ad5df7"
-  integrity sha512-dGKrVNnTBKglqcRqurIXtuzwlGN/lD4fwFShu7aD6Sba7PEMU46zSpxoeuZEvy6/Gcs4PPZQRblk+CZ1UVNOTQ==
-  dependencies:
-    "@types/node" "*"
+  version "4.4.8"
+  resolved "https://registry.yarnpkg.com/@types/isomorphic-git__lightning-fs/-/isomorphic-git__lightning-fs-4.4.8.tgz#dd879075c78a97acf027b49324f947507d365415"
+  integrity sha512-M82HDtQ6rW0EOfdJnFBAAOKqXeh5RwA+QyVhKoX5pyljM38/io4eMDbVVE07Z6vRJ3JAa/j6xJ8K8TYuzydJrA==
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.3"
