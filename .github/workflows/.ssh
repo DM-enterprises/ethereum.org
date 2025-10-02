@@ -1,0 +1,6 @@
+# Generate a new SSH key
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+# Output file location (if prompted, press Enter to accept the default)
+# Ensure to add the SSH key to the SSH agent (if required)
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
