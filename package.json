@@ -338,7 +338,7 @@
     "eslint-plugin-standard": "4.0.1",
     "events": "^3.0.0",
     "execr": "^1.0.1",
-    "exorcist": "^0.4.0",
+    "exorcist": "^2.0.0",
     "exports-loader": "^1.1.0",
     "fast-async": "^7.0.6",
     "fast-levenshtein": "^2.0.6",
